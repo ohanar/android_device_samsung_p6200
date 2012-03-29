@@ -27,15 +27,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
 $(call inherit-product, device/samsung/c210-common/c210_base.mk)
 
-$(call inherit-product, $(LOCAL_PATH)/p6810_base.mk)
+$(call inherit-product, $(LOCAL_PATH)/p6200_base.mk)
 
 $(call inherit-product-if-exists, vendor/samsung/c210/c210-vendor.mk)
 
-$(call inherit-product-if-exists, vendor/samsung/p6810/p6810-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/p6200/p6200-vendor.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := p6810
-PRODUCT_DEVICE := p6810
+PRODUCT_NAME := p6200
+PRODUCT_DEVICE := p6200
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := GT-P6810
+PRODUCT_MODEL := GT-P6200

@@ -15,6 +15,11 @@
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+# This device is hdpi.
+PRODUCT_AAPT_CONFIG := normal hdpi
+PRODUCT_AAPT_PREF_CONFIG := hdpi
+PRODUCT_LOCALES += hdpi
+
 # Init files
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/init.smdkc210.rc:root/init.smdkc210.rc
@@ -34,3 +39,5 @@ PRODUCT_COPY_FILES += $(foreach module,\
 # Kernel modules for recovery ramdisk
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/modules/j4fs.ko:recovery/root/lib/modules/j4fs.ko
+
+$(call inherit-product, frameworks/base/build/phone-hdpi-512-dalvik-heap.mk)
