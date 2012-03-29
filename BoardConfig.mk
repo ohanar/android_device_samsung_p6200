@@ -18,8 +18,8 @@
 -include device/samsung/c210-common/BoardConfigCommon.mk
 
 # Use the non-open-source parts, if they're present
--include vendor/samsung/p6810/BoardConfigVendor.mk
+-include vendor/samsung/p6200/BoardConfigVendor.mk
 
-TARGET_OTA_ASSERT_DEVICE := p6810,GT-P6810
+TARGET_OTA_ASSERT_DEVICE := p6200,GT-P6200
 
-TARGET_PREBUILT_KERNEL := device/samsung/p6810/zImage
+TARGET_PREBUILT_KERNEL := device/samsung/p6200/zImage
