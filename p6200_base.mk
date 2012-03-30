@@ -40,4 +40,4 @@ PRODUCT_COPY_FILES += $(foreach module,\
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/modules/j4fs.ko:recovery/root/lib/modules/j4fs.ko
 
-$(call inherit-product, frameworks/base/build/phone-hdpi-512-dalvik-heap.mk)
+$(call inherit-product, frameworks/base/build/tablet-dalvik-heap.mk)
