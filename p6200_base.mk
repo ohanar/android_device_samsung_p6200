@@ -18,7 +18,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # This device is hdpi.
 PRODUCT_AAPT_CONFIG := large mdpi
 PRODUCT_AAPT_PREF_CONFIG := mdpi
-PRODUCT_LOCALES += mpdi
+PRODUCT_LOCALES += mdpi
 
 # Init files
 PRODUCT_COPY_FILES += \
