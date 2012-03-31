@@ -15,7 +15,7 @@
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# This device is hdpi.
+# This device is mdpi.
 PRODUCT_AAPT_CONFIG := large mdpi
 PRODUCT_AAPT_PREF_CONFIG := mdpi
 PRODUCT_LOCALES += mdpi
@@ -39,5 +39,3 @@ PRODUCT_COPY_FILES += $(foreach module,\
 # Kernel modules for recovery ramdisk
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/modules/j4fs.ko:recovery/root/lib/modules/j4fs.ko
-
-$(call inherit-product, frameworks/base/build/tablet-dalvik-heap.mk)
