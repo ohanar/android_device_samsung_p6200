@@ -42,3 +42,7 @@ PRODUCT_COPY_FILES += $(foreach module,\
 # Kernel modules for recovery ramdisk
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/modules/j4fs.ko:recovery/root/lib/modules/j4fs.ko
+
+# GSM
+PRODUCT_COPY_FILES += \
+	frameworks/base/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml

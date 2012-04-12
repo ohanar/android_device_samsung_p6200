@@ -4,4 +4,7 @@
 
 rild.libpath=/system/lib/libsec-ril.so
 rild.libargs=-d /dev/ttyS0
+ro.telephony.ril_class=SamsungHCRIL
+ro.telephony.sends_barcount=1
+
 persist.sys.strictmode.visual=0
