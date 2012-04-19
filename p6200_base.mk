@@ -25,7 +25,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Init files
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/init.smdkc210.rc:root/init.smdkc210.rc
+  $(LOCAL_PATH)/init.smdkc210.rc:root/init.smdkc210.rc \
+  $(LOCAL_PATH)/lpm.rc:root/lpm.rc
 
 # GSM
 PRODUCT_COPY_FILES += \
