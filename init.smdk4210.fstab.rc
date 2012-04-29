@@ -1,5 +1,3 @@
-import init.smdkc210.common.rc
-
 on fs
 # mount ext4 partitions
     mount ext4 /dev/block/mmcblk0p9 /system ro wait noatime
