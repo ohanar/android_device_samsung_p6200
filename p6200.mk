@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 $(call inherit-product, device/samsung/exynos4tab-common/exynos4tab_base.mk)
 
-$(call inherit-product, $(LOCAL_PATH)/exynos4tab_base.mk)
+$(call inherit-product, $(LOCAL_PATH)/p6200_base.mk)
 
 $(call inherit-product-if-exists, vendor/samsung/exynos4tab-common/exynos4tab-common-vendor.mk)
 
