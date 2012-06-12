@@ -20,6 +20,6 @@
 # Use the non-open-source parts, if they're present
 -include vendor/samsung/p6200/BoardConfigVendor.mk
 
-TARGET_OTA_ASSERT_DEVICE := p6200,GT-P6200
+TARGET_OTA_ASSERT_DEVICE := p6200,GT-P6200,p6201,GT-P6201
 
 TARGET_KERNEL_CONFIG := cyanogenmod_p6200_defconfig
