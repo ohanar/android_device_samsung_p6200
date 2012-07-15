@@ -22,7 +22,7 @@ $(call inherit-product, device/samsung/exynos4tab-common/exynos4tab_base.mk)
 
 $(call inherit-product, $(LOCAL_PATH)/p6200_base.mk)
 
-$(call inherit-product-if-exists, vendor/samsung/exynos4tab-common/exynos4tab-common-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/exynos4tab-common/exynos4tab-common_base.mk)
 
 $(call inherit-product-if-exists, vendor/samsung/p6200/p6200-vendor.mk)
 
