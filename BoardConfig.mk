@@ -17,9 +17,6 @@
 # Include common smdk4210-tab configuration
 -include device/samsung/smdk4210-tab/BoardConfigCommon.mk
 
-# Use the non-open-source parts, if they're present
--include vendor/samsung/p6200/BoardConfigVendor.mk
-
 TARGET_OTA_ASSERT_DEVICE := p6200,GT-P6200,GT-P6201,GT-P6200L
 
 TARGET_KERNEL_CONFIG := cyanogenmod_p6200_defconfig
