@@ -13,8 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-
 # The Tab 7+ has a large mpdi screen
 PRODUCT_AAPT_CONFIG := large mdpi
 PRODUCT_AAPT_PREF_CONFIG := mdpi
