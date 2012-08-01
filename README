@@ -1,9 +1,9 @@
-CM9 device tree for the Galaxy Tab 7 Plus GSM (GT-P6200)
+Device configuration for the Samsung Galaxy Tab 7+ (3g)
 
-Based on ohanar's Tab 7.7 WiFi (GT-P6810) tree:
-	https://github.com/ohanar/android_device_samsung_p6810
+Copyright (C) 2012 The CyanogenMod Project
 
-To build:
-	. build/envsetup.sh
-	lunch cm_p6200-userdebug
-	mka bacon
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
